@@ -137,7 +137,7 @@
           todosUl.addEventListener('click', function(event) {
             var elementClicked = event.target;
             if (elementClicked.className === 'deleteButton') {
-              handlers.deleteTodo(parseint(elementClicked.parentNode.id));
+              handlers.deleteTodo(parseInt(elementClicked.parentNode.id));
             }
           });
         }
